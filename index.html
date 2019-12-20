@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <script type="text/javascript" src="linkedVideoList.js"></script>
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="config.js"></script>
+    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.min.css">
+    <script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="videoTypeResolver.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    
+    <div id="gallery-horizontal">
+        <div id="left">
+            <button id="btn-left"  class="horizontal-triangle btn-prev">&lt;</button>
+        </div>
+        <div id="showcase">
+
+        </div>
+        <div id="right">
+            <button id="btn-right" class="horizontal-triangle btn-next">&gt;</button>
+        </div>
+    </div>
+
+    <div id="gallery-vertical">
+        <div id="top">
+            <button id="btn-top" class="vertical-triangle btn-prev">&#9651;</button>
+        </div>
+        <div id="showcase">
+
+        </div>
+        <div id="bottom">
+            <button id="btn-bottom" class="vertical-triangle btn-next">&#9661;</button>
+        </div>
+    </div>
+
+    <span class="close-video" id="close-video">&#x2716;</span>
+    <iframe webkitallowfullscreen mozallowfullscreen allowfullscreen id='outer-iframe'>
+    </iframe>
+
+
+
+
+</body>
+
+</html>
