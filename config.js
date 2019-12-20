@@ -19,7 +19,7 @@ var isPlaying = false;
 var alignment = "horizontal";
 
 // specify the length of the interval that each slide stays
-var slideStayInterval = 500000000;
+var slideStayInterval = 5;
 
 // specify the speed of the sliding animation
 var animationSpeedInterval = 1000;
